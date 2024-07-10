@@ -14,8 +14,8 @@ int main(void){
     area = (base*altura) / 2.0;
 
     puts("\n---------- RESULTADO ----------\n");
-    printf("Base: %.2d metros\n", base);
-    printf("Altura: %.2d metros\n", altura);
+    printf("Base: %.d metros\n", base);
+    printf("Altura: %.d metros\n", altura);
     printf("Area do triangulo: %.2f metros quadrados\n", area);
 
     return 0;

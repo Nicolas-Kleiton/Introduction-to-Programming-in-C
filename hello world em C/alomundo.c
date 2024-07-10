@@ -14,7 +14,7 @@
 int main(void)
 {
 
-	puts("Olah, meu nome eh Nicolas Kleiton!"); /* imprime a mensagem escrita */
+	puts("Hello World!"); 
 
 	return 0;
 }
