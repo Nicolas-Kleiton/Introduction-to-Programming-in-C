@@ -11,13 +11,14 @@ int main(void) {
     scanf("%f", &altura);
 
     if (sexo == 'M') {
-        printf("\nO seu peso ideal eh: %.1f",pesoideal = (72.7*altura)-58 );
+        pesoideal = (72.7*altura)-58;
+        printf("\nO seu peso ideal eh: %.1fKg", pesoideal);
     } else if (sexo == 'F') {
-        printf("\nO seu peso ideal eh: %.1f", pesoideal = (62.1*altura)-44.7);
+        pesoideal = (62.1*altura)-44.7;
+        printf("\nO seu peso ideal eh: %.1fKg", pesoideal);
         } else {
             puts("\nSexo Invalido, por favor informe novamente.");
         }
-
 
 	return 0;
 }
