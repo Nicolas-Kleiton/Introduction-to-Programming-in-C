@@ -4,15 +4,17 @@ int main(void) {
 
     int num1, num2;
 
-	printf("Escolha um numero inteiro: ");
+	printf("Enter an integer: ");
     scanf("%d", &num1);
-    printf("\nEscolha outro numero inteiro: ");
+    printf("Enter another integer: ");
     scanf("%d", &num2);
     
-    if (num1<num2) {
-        printf("\nO menor numero eh %d", num1);
+    if (num1==num2) {
+        printf("Both numbers are equal\n");
+    } else if (num1<num2) {
+        printf("The smaller number is: %d\n", num1);
     } else {
-        printf("\nO menor numero eh %d", num2);
+        printf("The smaller number is: %d\n", num2);
     }
 
 	return 0;
