@@ -36,13 +36,13 @@ int main() {
     // Verifica o resultado e exibe as informações adequadas
     switch (resultado) {
         case 0:
-            printf("As raízes da equação são: x1 = %.2f e x2 = %.2f\n", x1, x2);
+            printf("As raizes da equacao sao: x1 = %.2f e x2 = %.2f\n", x1, x2);
             break;
         case -1:
-            printf("Os coeficientes não representam uma equação do segundo grau.\n");
+            printf("Os coeficientes nao representam uma equacao do segundo grau.\n");
             break;
         case -2:
-            printf("A equação não possui raízes reais.\n");
+            printf("A equação nao possui raizes reais.\n");
             break;
         default:
             break;
